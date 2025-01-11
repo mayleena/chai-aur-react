@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Alert from './components/Alert';
 import Textform from './components/Textform';
 import  About  from "./components/About";
+import { BrowserRouter } from "react-router";
 
 function App() {
   const [Mode, setMode] = useState('light'); // Dark mode state
